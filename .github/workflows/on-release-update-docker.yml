@@ -2,7 +2,7 @@ name: Update Docker image
 on:
   release:
     #types: [published]
-
+  push: #test, to be removed
   
 jobs:
   trigger-docker-update:
